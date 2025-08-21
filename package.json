@@ -1,0 +1,21 @@
+{
+  "name": "yeonelles-library",
+  "version": "1.0.0",
+  "description": "A curated collection of JavaScript snippets for developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "build": "echo 'Static site - no build needed'",
+    "serve": "npx http-server page -p 3000"
+  },
+  "keywords": ["javascript", "snippets", "library", "utilities", "code"],
+  "author": "Yeonelle",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
